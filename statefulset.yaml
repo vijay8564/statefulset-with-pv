@@ -31,7 +31,7 @@ metadata:
   name: my-statefulset
 spec:
   serviceName: "nginx"
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: my-app
